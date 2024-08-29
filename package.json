@@ -1,5 +1,5 @@
 {
-  "name": "cdk-assets-bug-2",
+  "name": "cdk-assets-bug",
   "scripts": {
     "build": "npx projen build",
     "bundle": "npx projen bundle",
@@ -28,7 +28,7 @@
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
-    "aws-cdk": "^2.1.0",
+    "aws-cdk": "^2.154.1",
     "esbuild": "^0.23.1",
     "eslint": "^8",
     "eslint-import-resolver-typescript": "^3.6.3",
@@ -41,7 +41,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.1.0",
+    "aws-cdk-lib": "^2.154.1",
     "constructs": "^10.0.5"
   },
   "license": "Apache-2.0",
